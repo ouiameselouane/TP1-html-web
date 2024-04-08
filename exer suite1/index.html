@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;    
+        }
+
+        #main{
+            padding: 5px;
+            display: flex;
+            gap: 20px;
+            height: 98.5vh;
+        }
+        #one{
+            min-width: 400px;
+        }
+        #one, #two{
+            margin-top: 40px;
+        }
+        
+        #one p{
+        font-size: .9rem;
+        margin-top: 20px;
+        }
+    
+        #two {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+            margin-left: 20px;
+        }
+
+        #two ul {
+            margin-left: 20px;
+        }
+
+        #three {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            color: #f2f2f2;
+        }
+        #three .box{
+            text-align: center;
+            flex: 1;
+            justify-content: center;
+            background-color: #2e2e2e;
+            padding: 5px 10px;
+        }
+        #three .box:first-child {
+            border-top-right-radius: 10px;
+        }
+        #three .box:nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:20px;
+            justify-content: space-between;
+            border-bottom-right-radius: 10px;
+            padding: 20px;
+        }
+        #three .desc p {
+            margin-top: 5px;
+            font-size: 12px;
+        }
+        #profil #img1{
+            background-color: #b2b2b2;
+            width: 150px;
+            height: 150px;
+            min-width: 150px;
+            min-height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        #profil img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        #logo{
+            display: flex;
+            gap: 20px;
+        }
+        #logo div{
+            background-color: #b2b2b2;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        #logo div img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="main">
+        <div id="one">
+            <h3>A propos de moi</h3>
+            <p>
+                Salut je suis pationne par l'univers fascinant du developpemment web.Monparcour dans les technologies 
+                front-end m'a permis de créer des expériences utilisateur captivanteset mémorables.
+                Mon amour pour la conception web est une aventure constante où chaque ligne de code raconte une histoire .En
+                tant que dévloppeuse créative ,je me plonge dans le défi de combiner fonctionnalité et esthétique pour offrir des
+                sites web modernes et intuitifs.
+                Mon objectif est de repousser les limites de la créativité téchnologique ,en explorant les dérniere les derniére tendances et
+                en intérant des solutions innovantes ,j'aime créer des interfaces qui transcendent l'écran,offrant aux utilisateurs 
+                une expérience immersive et aventure où la curiosité raconte la créativité ,et où chaque ligne de code donne vie à 
+                des idées extraordinaires.
+            </p>
+        </div>
+        <div id="two">
+            <h3>Compétences </h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Vue.js</li>
+            </ul>
+        </div>
+        <div id="three">
+            <div class="box">
+                <h5>@ 2024 Mon profil</h5>
+            </div>
+            <div id="profil" class="box">
+                <div id="img1">
+                    <img src="image2.jpg">
+                </div>
+                <div class="desc">
+                    <h3>OUIAME SELOUANE </h3>
+                    <p>Developpeur Web</p>
+                </div>
+                <div id="logo">
+                    <div>
+                        <img src="linkedin-icon.png">  
+                    </div>
+                    <div>
+                        <img src="twitter-icon.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

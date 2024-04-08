@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form">
+   <table>
+    <tr>
+        <th>Civilité:</th>
+        <td><input name="sex" type="radio"><label for="">Madmoiselle</label>
+            <input name="sex" type="radio">Madame
+            <input name="sex" type="radio">Monsieur <i style="color: rgb(233, 230, 230);" >bouton rouge=> s'excluant mutuellement</i></td>
+    </tr>
+   
+    <tr>
+        <th>Nom/Prenom:</th>
+        <td><input type="text "></td>
+    </tr>
+    <tr>
+        <th>Adresse:</pre></th>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <th>No postal /Localité:</th>
+        <td><input type="text">   <input type="text"><i style="color: rgb(233, 230, 230);">      (limiter entrer No a 4 car)(valeur prédéfinie)</i></td>
+    </tr>
+    <tr>
+        <th>Pays:</th>
+        <td>
+            <select NAME ="pays">
+                <option>Maroc</option>
+                <option>france</option>
+                <option>sao tome</option>
+                <option selected> suisse</option>
+                </select><i style="color: rgb(233, 230, 230);">    (menu avec préselectionnenment Suisse)</i>
+        </td>
+    </tr>
+    <tr>
+        <th>Plateforme(s):</th>
+        <td><input type="checkbox"> Windows 
+             <input type="checkbox">Macintosh
+             <input type="checkbox">Unix
+              <i style="color: rgb(233, 230, 230);"><i style="color: rgb(233, 230, 230);"> (case a cocher => plusieurs choix possibles)</i></td>
+    </tr>
+    <tr>
+        <th>Application(s):</th>
+        <td>  <select NAME = "Aplication(s)" SIZE ="5" multiple>
+                <option>Bureautique</option>
+                <option>DAO</option>
+                <option>Statistiques</option>
+                <option>SGBD</option>
+                <option>Internet</option> </td>
+            </select>
+    </tr>
+   </table>
+  </div>
+  <div id="conferm">
+    <input type="submit" value="Soumettre formulaire">    <input type="reset" value="Effacer">
+  </div>
+</body>
+</html>

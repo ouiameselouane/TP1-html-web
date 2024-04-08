@@ -1,0 +1,23 @@
+
+body{
+    height: 100vh;
+}
+th{
+    padding-right: 90px;
+   
+}
+td{
+    width: 80%;
+}
+#form{
+    color: chartreuse;
+    background-color: darkgreen;
+    padding: 10px;
+    
+}
+#conferm{
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
